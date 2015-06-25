@@ -1,0 +1,9 @@
+/* 
+  LocalizableD.strings
+  DJKSwitchDemo
+
+  Created by Danny Lin on 13/6/10.
+
+*/
+"SWITCH_TO_ON" = "ON";
+"SWITCH_TO_OFF" = "OFF";

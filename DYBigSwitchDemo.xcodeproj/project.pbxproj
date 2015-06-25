@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30CF062E1B3A877200D28C41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF062D1B3A877200D28C41 /* main.m */; };
+		30CF06311B3A877200D28C41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF06301B3A877200D28C41 /* AppDelegate.m */; };
+		30CF06341B3A877200D28C41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF06331B3A877200D28C41 /* ViewController.m */; };
+		30CF06371B3A877200D28C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06351B3A877200D28C41 /* Main.storyboard */; };
+		30CF06391B3A877200D28C41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06381B3A877200D28C41 /* Images.xcassets */; };
+		30CF063C1B3A877200D28C41 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30CF063A1B3A877200D28C41 /* LaunchScreen.xib */; };
+		30CF06481B3A877200D28C41 /* DYBigSwitchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF06471B3A877200D28C41 /* DYBigSwitchDemoTests.m */; };
+		30CF06561B3A881300D28C41 /* DYBigSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CF06541B3A881300D28C41 /* DYBigSwitch.m */; };
+		30CF06581B3A884A00D28C41 /* DYBigSwitchBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06571B3A884A00D28C41 /* DYBigSwitchBundle.bundle */; };
+		30CF068A1B3A9B3900D28C41 /* background@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF067A1B3A9B3900D28C41 /* background@2x~iPad.png */; };
+		30CF068B1B3A9B3900D28C41 /* background@2x~iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF067B1B3A9B3900D28C41 /* background@2x~iPhone.png */; };
+		30CF068C1B3A9B3900D28C41 /* background~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF067C1B3A9B3900D28C41 /* background~iPad.png */; };
+		30CF068D1B3A9B3900D28C41 /* background~iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF067D1B3A9B3900D28C41 /* background~iPhone.png */; };
+		30CF068E1B3A9B3900D28C41 /* border@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF067E1B3A9B3900D28C41 /* border@2x~iPad.png */; };
+		30CF068F1B3A9B3900D28C41 /* border@2x~iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF067F1B3A9B3900D28C41 /* border@2x~iPhone.png */; };
+		30CF06901B3A9B3900D28C41 /* border~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06801B3A9B3900D28C41 /* border~iPad.png */; };
+		30CF06911B3A9B3900D28C41 /* border~iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06811B3A9B3900D28C41 /* border~iPhone.png */; };
+		30CF06921B3A9B3900D28C41 /* button@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06821B3A9B3900D28C41 /* button@2x~iPad.png */; };
+		30CF06931B3A9B3900D28C41 /* button@2x~iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06831B3A9B3900D28C41 /* button@2x~iPhone.png */; };
+		30CF06941B3A9B3900D28C41 /* button~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06841B3A9B3900D28C41 /* button~iPad.png */; };
+		30CF06951B3A9B3900D28C41 /* button~iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06851B3A9B3900D28C41 /* button~iPhone.png */; };
+		30CF06961B3A9B3900D28C41 /* maskoverlay@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06861B3A9B3900D28C41 /* maskoverlay@2x~iPad.png */; };
+		30CF06971B3A9B3900D28C41 /* maskoverlay@2x~iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06871B3A9B3900D28C41 /* maskoverlay@2x~iPhone.png */; };
+		30CF06981B3A9B3900D28C41 /* maskoverlay~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06881B3A9B3900D28C41 /* maskoverlay~iPad.png */; };
+		30CF06991B3A9B3900D28C41 /* maskoverlay~iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CF06891B3A9B3900D28C41 /* maskoverlay~iPhone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30CF06421B3A877200D28C41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30CF06201B3A877200D28C41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30CF06271B3A877200D28C41;
+			remoteInfo = DYBigSwitchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30CF06281B3A877200D28C41 /* DYBigSwitchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYBigSwitchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CF062C1B3A877200D28C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CF062D1B3A877200D28C41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30CF062F1B3A877200D28C41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30CF06301B3A877200D28C41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30CF06321B3A877200D28C41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30CF06331B3A877200D28C41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30CF06361B3A877200D28C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30CF06381B3A877200D28C41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30CF063B1B3A877200D28C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		30CF06411B3A877200D28C41 /* DYBigSwitchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYBigSwitchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CF06461B3A877200D28C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CF06471B3A877200D28C41 /* DYBigSwitchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYBigSwitchDemoTests.m; sourceTree = "<group>"; };
+		30CF06531B3A881300D28C41 /* DYBigSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBigSwitch.h; sourceTree = "<group>"; };
+		30CF06541B3A881300D28C41 /* DYBigSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYBigSwitch.m; sourceTree = "<group>"; };
+		30CF06571B3A884A00D28C41 /* DYBigSwitchBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DYBigSwitchBundle.bundle; sourceTree = "<group>"; };
+		30CF067A1B3A9B3900D28C41 /* background@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x~iPad.png"; path = "resources/background@2x~iPad.png"; sourceTree = "<group>"; };
+		30CF067B1B3A9B3900D28C41 /* background@2x~iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x~iPhone.png"; path = "resources/background@2x~iPhone.png"; sourceTree = "<group>"; };
+		30CF067C1B3A9B3900D28C41 /* background~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background~iPad.png"; path = "resources/background~iPad.png"; sourceTree = "<group>"; };
+		30CF067D1B3A9B3900D28C41 /* background~iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background~iPhone.png"; path = "resources/background~iPhone.png"; sourceTree = "<group>"; };
+		30CF067E1B3A9B3900D28C41 /* border@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "border@2x~iPad.png"; path = "resources/border@2x~iPad.png"; sourceTree = "<group>"; };
+		30CF067F1B3A9B3900D28C41 /* border@2x~iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "border@2x~iPhone.png"; path = "resources/border@2x~iPhone.png"; sourceTree = "<group>"; };
+		30CF06801B3A9B3900D28C41 /* border~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "border~iPad.png"; path = "resources/border~iPad.png"; sourceTree = "<group>"; };
+		30CF06811B3A9B3900D28C41 /* border~iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "border~iPhone.png"; path = "resources/border~iPhone.png"; sourceTree = "<group>"; };
+		30CF06821B3A9B3900D28C41 /* button@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button@2x~iPad.png"; path = "resources/button@2x~iPad.png"; sourceTree = "<group>"; };
+		30CF06831B3A9B3900D28C41 /* button@2x~iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button@2x~iPhone.png"; path = "resources/button@2x~iPhone.png"; sourceTree = "<group>"; };
+		30CF06841B3A9B3900D28C41 /* button~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button~iPad.png"; path = "resources/button~iPad.png"; sourceTree = "<group>"; };
+		30CF06851B3A9B3900D28C41 /* button~iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button~iPhone.png"; path = "resources/button~iPhone.png"; sourceTree = "<group>"; };
+		30CF06861B3A9B3900D28C41 /* maskoverlay@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "maskoverlay@2x~iPad.png"; path = "resources/maskoverlay@2x~iPad.png"; sourceTree = "<group>"; };
+		30CF06871B3A9B3900D28C41 /* maskoverlay@2x~iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "maskoverlay@2x~iPhone.png"; path = "resources/maskoverlay@2x~iPhone.png"; sourceTree = "<group>"; };
+		30CF06881B3A9B3900D28C41 /* maskoverlay~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "maskoverlay~iPad.png"; path = "resources/maskoverlay~iPad.png"; sourceTree = "<group>"; };
+		30CF06891B3A9B3900D28C41 /* maskoverlay~iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "maskoverlay~iPhone.png"; path = "resources/maskoverlay~iPhone.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CF06251B3A877200D28C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CF063E1B3A877200D28C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30CF061F1B3A877200D28C41 = {
+			isa = PBXGroup;
+			children = (
+				30CF06511B3A881300D28C41 /* DYBigSwitch */,
+				30CF062A1B3A877200D28C41 /* DYBigSwitchDemo */,
+				30CF06441B3A877200D28C41 /* DYBigSwitchDemoTests */,
+				30CF06291B3A877200D28C41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30CF06291B3A877200D28C41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30CF06281B3A877200D28C41 /* DYBigSwitchDemo.app */,
+				30CF06411B3A877200D28C41 /* DYBigSwitchDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30CF062A1B3A877200D28C41 /* DYBigSwitchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				30CF062F1B3A877200D28C41 /* AppDelegate.h */,
+				30CF06301B3A877200D28C41 /* AppDelegate.m */,
+				30CF06321B3A877200D28C41 /* ViewController.h */,
+				30CF06331B3A877200D28C41 /* ViewController.m */,
+				30CF06351B3A877200D28C41 /* Main.storyboard */,
+				30CF06381B3A877200D28C41 /* Images.xcassets */,
+				30CF063A1B3A877200D28C41 /* LaunchScreen.xib */,
+				30CF062B1B3A877200D28C41 /* Supporting Files */,
+			);
+			path = DYBigSwitchDemo;
+			sourceTree = "<group>";
+		};
+		30CF062B1B3A877200D28C41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30CF062C1B3A877200D28C41 /* Info.plist */,
+				30CF062D1B3A877200D28C41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30CF06441B3A877200D28C41 /* DYBigSwitchDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				30CF06471B3A877200D28C41 /* DYBigSwitchDemoTests.m */,
+				30CF06451B3A877200D28C41 /* Supporting Files */,
+			);
+			path = DYBigSwitchDemoTests;
+			sourceTree = "<group>";
+		};
+		30CF06451B3A877200D28C41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30CF06461B3A877200D28C41 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30CF06511B3A881300D28C41 /* DYBigSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				30CF06591B3A991D00D28C41 /* resources */,
+				30CF06571B3A884A00D28C41 /* DYBigSwitchBundle.bundle */,
+				30CF06531B3A881300D28C41 /* DYBigSwitch.h */,
+				30CF06541B3A881300D28C41 /* DYBigSwitch.m */,
+			);
+			path = DYBigSwitch;
+			sourceTree = "<group>";
+		};
+		30CF06591B3A991D00D28C41 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				30CF067A1B3A9B3900D28C41 /* background@2x~iPad.png */,
+				30CF067B1B3A9B3900D28C41 /* background@2x~iPhone.png */,
+				30CF067C1B3A9B3900D28C41 /* background~iPad.png */,
+				30CF067D1B3A9B3900D28C41 /* background~iPhone.png */,
+				30CF067E1B3A9B3900D28C41 /* border@2x~iPad.png */,
+				30CF067F1B3A9B3900D28C41 /* border@2x~iPhone.png */,
+				30CF06801B3A9B3900D28C41 /* border~iPad.png */,
+				30CF06811B3A9B3900D28C41 /* border~iPhone.png */,
+				30CF06821B3A9B3900D28C41 /* button@2x~iPad.png */,
+				30CF06831B3A9B3900D28C41 /* button@2x~iPhone.png */,
+				30CF06841B3A9B3900D28C41 /* button~iPad.png */,
+				30CF06851B3A9B3900D28C41 /* button~iPhone.png */,
+				30CF06861B3A9B3900D28C41 /* maskoverlay@2x~iPad.png */,
+				30CF06871B3A9B3900D28C41 /* maskoverlay@2x~iPhone.png */,
+				30CF06881B3A9B3900D28C41 /* maskoverlay~iPad.png */,
+				30CF06891B3A9B3900D28C41 /* maskoverlay~iPhone.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30CF06271B3A877200D28C41 /* DYBigSwitchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CF064B1B3A877200D28C41 /* Build configuration list for PBXNativeTarget "DYBigSwitchDemo" */;
+			buildPhases = (
+				30CF06241B3A877200D28C41 /* Sources */,
+				30CF06251B3A877200D28C41 /* Frameworks */,
+				30CF06261B3A877200D28C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYBigSwitchDemo;
+			productName = DYBigSwitchDemo;
+			productReference = 30CF06281B3A877200D28C41 /* DYBigSwitchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30CF06401B3A877200D28C41 /* DYBigSwitchDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CF064E1B3A877200D28C41 /* Build configuration list for PBXNativeTarget "DYBigSwitchDemoTests" */;
+			buildPhases = (
+				30CF063D1B3A877200D28C41 /* Sources */,
+				30CF063E1B3A877200D28C41 /* Frameworks */,
+				30CF063F1B3A877200D28C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30CF06431B3A877200D28C41 /* PBXTargetDependency */,
+			);
+			name = DYBigSwitchDemoTests;
+			productName = DYBigSwitchDemoTests;
+			productReference = 30CF06411B3A877200D28C41 /* DYBigSwitchDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30CF06201B3A877200D28C41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = danny;
+				TargetAttributes = {
+					30CF06271B3A877200D28C41 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					30CF06401B3A877200D28C41 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 30CF06271B3A877200D28C41;
+					};
+				};
+			};
+			buildConfigurationList = 30CF06231B3A877200D28C41 /* Build configuration list for PBXProject "DYBigSwitchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30CF061F1B3A877200D28C41;
+			productRefGroup = 30CF06291B3A877200D28C41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30CF06271B3A877200D28C41 /* DYBigSwitchDemo */,
+				30CF06401B3A877200D28C41 /* DYBigSwitchDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30CF06261B3A877200D28C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CF06941B3A9B3900D28C41 /* button~iPad.png in Resources */,
+				30CF06981B3A9B3900D28C41 /* maskoverlay~iPad.png in Resources */,
+				30CF06951B3A9B3900D28C41 /* button~iPhone.png in Resources */,
+				30CF068B1B3A9B3900D28C41 /* background@2x~iPhone.png in Resources */,
+				30CF068D1B3A9B3900D28C41 /* background~iPhone.png in Resources */,
+				30CF06931B3A9B3900D28C41 /* button@2x~iPhone.png in Resources */,
+				30CF06371B3A877200D28C41 /* Main.storyboard in Resources */,
+				30CF06901B3A9B3900D28C41 /* border~iPad.png in Resources */,
+				30CF063C1B3A877200D28C41 /* LaunchScreen.xib in Resources */,
+				30CF068E1B3A9B3900D28C41 /* border@2x~iPad.png in Resources */,
+				30CF06971B3A9B3900D28C41 /* maskoverlay@2x~iPhone.png in Resources */,
+				30CF06921B3A9B3900D28C41 /* button@2x~iPad.png in Resources */,
+				30CF06391B3A877200D28C41 /* Images.xcassets in Resources */,
+				30CF06961B3A9B3900D28C41 /* maskoverlay@2x~iPad.png in Resources */,
+				30CF06911B3A9B3900D28C41 /* border~iPhone.png in Resources */,
+				30CF068A1B3A9B3900D28C41 /* background@2x~iPad.png in Resources */,
+				30CF06991B3A9B3900D28C41 /* maskoverlay~iPhone.png in Resources */,
+				30CF06581B3A884A00D28C41 /* DYBigSwitchBundle.bundle in Resources */,
+				30CF068F1B3A9B3900D28C41 /* border@2x~iPhone.png in Resources */,
+				30CF068C1B3A9B3900D28C41 /* background~iPad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CF063F1B3A877200D28C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30CF06241B3A877200D28C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CF06341B3A877200D28C41 /* ViewController.m in Sources */,
+				30CF06561B3A881300D28C41 /* DYBigSwitch.m in Sources */,
+				30CF06311B3A877200D28C41 /* AppDelegate.m in Sources */,
+				30CF062E1B3A877200D28C41 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CF063D1B3A877200D28C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CF06481B3A877200D28C41 /* DYBigSwitchDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30CF06431B3A877200D28C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30CF06271B3A877200D28C41 /* DYBigSwitchDemo */;
+			targetProxy = 30CF06421B3A877200D28C41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30CF06351B3A877200D28C41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CF06361B3A877200D28C41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30CF063A1B3A877200D28C41 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CF063B1B3A877200D28C41 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30CF06491B3A877200D28C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30CF064A1B3A877200D28C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30CF064C1B3A877200D28C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYBigSwitchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30CF064D1B3A877200D28C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYBigSwitchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30CF064F1B3A877200D28C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DYBigSwitchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYBigSwitchDemo.app/DYBigSwitchDemo";
+			};
+			name = Debug;
+		};
+		30CF06501B3A877200D28C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DYBigSwitchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYBigSwitchDemo.app/DYBigSwitchDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30CF06231B3A877200D28C41 /* Build configuration list for PBXProject "DYBigSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CF06491B3A877200D28C41 /* Debug */,
+				30CF064A1B3A877200D28C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CF064B1B3A877200D28C41 /* Build configuration list for PBXNativeTarget "DYBigSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CF064C1B3A877200D28C41 /* Debug */,
+				30CF064D1B3A877200D28C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CF064E1B3A877200D28C41 /* Build configuration list for PBXNativeTarget "DYBigSwitchDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CF064F1B3A877200D28C41 /* Debug */,
+				30CF06501B3A877200D28C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30CF06201B3A877200D28C41 /* Project object */;
+}
